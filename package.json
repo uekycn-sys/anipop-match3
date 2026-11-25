@@ -1,0 +1,19 @@
+{
+  "name": "anipop-match3",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Commercial-grade HTML5 Canvas Match-3 puzzle game built with Vite + TypeScript",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.10",
+    "vitest": "^4.1.4"
+  }
+}
