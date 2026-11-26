@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><clipPath id="favClip"><rect width="512" height="512" rx="112"/></clipPath></defs><g clip-path="url(#favClip)">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b1c5a"/>
+      <stop offset="50%" stop-color="#281647"/>
+      <stop offset="100%" stop-color="#172542"/>
+    </linearGradient>
+    <radialGradient id="magic" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#ff7eb3" stop-opacity="0.32"/>
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ruby" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8fb1"/>
+      <stop offset="50%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7"/>
+      <stop offset="55%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="55%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="220" fill="url(#magic)"/>
+  <!-- Sparkle stars -->
+  <g fill="#fde68a" opacity="0.85">
+    <path d="M110 112 L116 128 L132 134 L116 140 L110 156 L104 140 L88 134 L104 128 Z"/>
+    <path d="M402 356 L408 370 L422 376 L408 382 L402 396 L396 382 L382 376 L396 370 Z"/>
+  </g>
+  <!-- 2x2 glossy fairytale match gems -->
+  <!-- Top-Left: Ruby Heart/Drop -->
+  <rect x="114" y="114" width="128" height="128" rx="36" fill="url(#ruby)" stroke="#fbcfe8" stroke-opacity="0.7" stroke-width="4"/>
+  <ellipse cx="164" cy="146" rx="34" ry="14" fill="#fff" fill-opacity="0.34" transform="rotate(-18 164 146)"/>
+  <!-- Top-Right: Mint Clover Gem -->
+  <rect x="270" y="114" width="128" height="128" rx="36" fill="url(#mint)" stroke="#a7f3d0" stroke-opacity="0.7" stroke-width="4"/>
+  <ellipse cx="320" cy="146" rx="34" ry="14" fill="#fff" fill-opacity="0.34" transform="rotate(-18 320 146)"/>
+  <!-- Bottom-Left: Sky Diamond -->
+  <rect x="114" y="270" width="128" height="128" rx="36" fill="url(#sky)" stroke="#bae6fd" stroke-opacity="0.7" stroke-width="4"/>
+  <ellipse cx="164" cy="302" rx="34" ry="14" fill="#fff" fill-opacity="0.34" transform="rotate(-18 164 302)"/>
+  <!-- Bottom-Right: Golden Star Burst -->
+  <rect x="270" y="270" width="128" height="128" rx="36" fill="url(#amber)" stroke="#fef08a" stroke-opacity="0.8" stroke-width="4"/>
+  <path d="M334 294 L345 319 L372 322 L351 340 L357 367 L334 352 L311 367 L317 340 L296 322 L323 319 Z" fill="#fffbeb"/>
+</g></svg>
